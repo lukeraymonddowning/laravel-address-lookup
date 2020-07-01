@@ -1,11 +1,6 @@
-# Very short description of the package
+# Laravel Address Lookup
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/lukeraymonddowning/postcode-lookup.svg?style=flat-square)](https://packagist.org/packages/lukeraymonddowning/postcode-lookup)
-[![Build Status](https://img.shields.io/travis/lukeraymonddowning/postcode-lookup/master.svg?style=flat-square)](https://travis-ci.org/lukeraymonddowning/postcode-lookup)
-[![Quality Score](https://img.shields.io/scrutinizer/g/lukeraymonddowning/postcode-lookup.svg?style=flat-square)](https://scrutinizer-ci.com/g/lukeraymonddowning/postcode-lookup)
-[![Total Downloads](https://img.shields.io/packagist/dt/lukeraymonddowning/postcode-lookup.svg?style=flat-square)](https://packagist.org/packages/lukeraymonddowning/postcode-lookup)
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+A small package to unify address lookups based on a search query. It currently has support for the Algolia Places API. 
 
 ## Installation
 

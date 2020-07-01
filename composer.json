@@ -1,11 +1,12 @@
 {
-    "name": "lukeraymonddowning/postcode-lookup",
+    "name": "lukeraymonddowning/laravel-address-lookup",
     "description": "Allows you to use many different services to find an address based on a postal code.",
     "keywords": [
         "lukeraymonddowning",
-        "postcode-lookup"
+        "address-lookup",
+        "laravel"
     ],
-    "homepage": "https://github.com/lukeraymonddowning/postcode-lookup",
+    "homepage": "https://github.com/lukeraymonddowning/laravel-address-lookup",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -46,10 +47,7 @@
         "laravel": {
             "providers": [
                 "AddressLookupServiceProvider"
-            ],
-            "aliases": {
-                "PostcodeLookup": "Lukeraymonddowning\\PostcodeLookup\\PostcodeLookupFacade"
-            }
+            ]
         }
     }
 }
