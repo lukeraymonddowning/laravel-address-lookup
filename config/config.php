@@ -4,7 +4,7 @@ use Lukeraymonddowning\PostcodeLookup\Drivers\AlgoliaAddressLookup;
 
 return [
 
-    'default' => env("POSTCODE_LOOKUP_DRIVER", 'algolia'),
+    'default' => env("ADDRESS_LOOKUP_DRIVER", 'algolia'),
 
     'drivers' => [
         'algolia' => [

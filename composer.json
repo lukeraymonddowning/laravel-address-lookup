@@ -1,6 +1,6 @@
 {
     "name": "lukeraymonddowning/laravel-address-lookup",
-    "description": "Allows you to use many different services to find an address based on a postal code.",
+    "description": "Allows you to use many different services to find an address based on an address query string.",
     "keywords": [
         "lukeraymonddowning",
         "address-lookup",
