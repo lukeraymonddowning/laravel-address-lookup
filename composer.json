@@ -46,7 +46,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AddressLookupServiceProvider"
+                "Lukeraymonddowning\\PostcodeLookup\\AddressLookupServiceProvider"
             ]
         }
     }
