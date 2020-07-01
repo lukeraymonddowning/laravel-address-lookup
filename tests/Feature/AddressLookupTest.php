@@ -3,11 +3,18 @@
 namespace Lukeraymonddowning\PostcodeLookup\Tests\Feature;
 
 use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\Config;
 use Lukeraymonddowning\PostcodeLookup\Address\AddressInterface;
 use Lukeraymonddowning\PostcodeLookup\Drivers\AddressLookup;
 
 class AddressLookupTest extends \Lukeraymonddowning\PostcodeLookup\Tests\TestCase
 {
+    protected function setUp(): void
+    {
+        parent::setUp();
+        Config::set('postcode-lookup.default', null);
+    }
+
     /** @test */
     public function it_can_be_retrieved_from_the_container()
     {
