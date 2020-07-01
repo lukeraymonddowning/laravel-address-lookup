@@ -1,8 +1,16 @@
 <?php
 
-/*
- * You can place your custom package configuration in here.
- */
+use Lukeraymonddowning\PostcodeLookup\Drivers\AlgoliaAddressLookup;
+
 return [
 
+    'default' => env("POSTCODE_LOOKUP_DRIVER", null),
+
+    'drivers' => [
+        'algolia' => [
+            'class' => AlgoliaAddressLookup::class,
+            'app_id' => env("ALGOLIA_PLACES_APPLICATION_ID"),
+            'app_key' => env("ALGOLIA_PLACES_APPLICATION_KEY")
+        ]
+    ]
 ];
